@@ -8,14 +8,14 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/n4ssser/GalleryTEC/GalleryTEC/hencoder.cpp" "/home/n4ssser/GalleryTEC/GalleryTEC/cmake-build-debug/CMakeFiles/GalleryTEC.dir/hencoder.cpp.o"
-  "/home/n4ssser/GalleryTEC/GalleryTEC/main.cpp" "/home/n4ssser/GalleryTEC/GalleryTEC/cmake-build-debug/CMakeFiles/GalleryTEC.dir/main.cpp.o"
+  "/home/nasser/projects/GalleryTEC/GalleryTEC/hencoder.cpp" "/home/nasser/projects/GalleryTEC/GalleryTEC/cmake-build-debug/CMakeFiles/GalleryTEC.dir/hencoder.cpp.o"
+  "/home/nasser/projects/GalleryTEC/GalleryTEC/main.cpp" "/home/nasser/projects/GalleryTEC/GalleryTEC/cmake-build-debug/CMakeFiles/GalleryTEC.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
-  "/usr/local/include/opencv4"
+  "/usr/include/opencv4"
   )
 
 # The set of dependency files which are needed:
