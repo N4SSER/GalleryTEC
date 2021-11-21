@@ -28,6 +28,8 @@ private:
     unordered_map<int, string> huffmanCode;
     void encode(Node* root, string str,unordered_map<int, string> &huffmanCode);
     void decode(Node* root, int &index, string str);
+    void write_h_tree(Node *p, ostream &out);
+    void read_h_tree(Node *&p, ifstream &fin);
 
 public:
     string encoded;

@@ -84,6 +84,12 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/home/nasser/projects/GalleryTEC/GalleryTEC/converter.cpp">
+			<Option target="GalleryTEC"/>
+		</Unit>
+		<Unit filename="/home/nasser/projects/GalleryTEC/GalleryTEC/converter.h">
+			<Option target="GalleryTEC"/>
+		</Unit>
 		<Unit filename="/home/nasser/projects/GalleryTEC/GalleryTEC/hencoder.cpp">
 			<Option target="GalleryTEC"/>
 		</Unit>

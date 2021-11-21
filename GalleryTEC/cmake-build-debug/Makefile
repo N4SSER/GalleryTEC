@@ -129,6 +129,30 @@ GalleryTEC/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/GalleryTEC.dir/build.make CMakeFiles/GalleryTEC.dir/build
 .PHONY : GalleryTEC/fast
 
+converter.o: converter.cpp.o
+.PHONY : converter.o
+
+# target to build an object file
+converter.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GalleryTEC.dir/build.make CMakeFiles/GalleryTEC.dir/converter.cpp.o
+.PHONY : converter.cpp.o
+
+converter.i: converter.cpp.i
+.PHONY : converter.i
+
+# target to preprocess a source file
+converter.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GalleryTEC.dir/build.make CMakeFiles/GalleryTEC.dir/converter.cpp.i
+.PHONY : converter.cpp.i
+
+converter.s: converter.cpp.s
+.PHONY : converter.s
+
+# target to generate assembly for a file
+converter.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GalleryTEC.dir/build.make CMakeFiles/GalleryTEC.dir/converter.cpp.s
+.PHONY : converter.cpp.s
+
 hencoder.o: hencoder.cpp.o
 .PHONY : hencoder.o
 
@@ -186,6 +210,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... GalleryTEC"
+	@echo "... converter.o"
+	@echo "... converter.i"
+	@echo "... converter.s"
 	@echo "... hencoder.o"
 	@echo "... hencoder.i"
 	@echo "... hencoder.s"

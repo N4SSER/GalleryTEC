@@ -6,6 +6,22 @@
 
 #IncludeRegexTransform: 
 
+/home/nasser/projects/GalleryTEC/GalleryTEC/converter.h
+iostream
+-
+vector
+-
+opencv2/opencv.hpp
+-
+math.h
+-
+
+/home/nasser/projects/GalleryTEC/GalleryTEC/hencoder.cpp
+fstream
+-
+hencoder.h
+/home/nasser/projects/GalleryTEC/GalleryTEC/hencoder.h
+
 /home/nasser/projects/GalleryTEC/GalleryTEC/hencoder.h
 iostream
 -
@@ -17,12 +33,12 @@ queue
 -
 
 /home/nasser/projects/GalleryTEC/GalleryTEC/main.cpp
-iostream
--
 opencv2/opencv.hpp
 -
 hencoder.h
 /home/nasser/projects/GalleryTEC/GalleryTEC/hencoder.h
+converter.h
+/home/nasser/projects/GalleryTEC/GalleryTEC/converter.h
 
 /usr/include/opencv4/opencv2/calib3d.hpp
 opencv2/core.hpp
