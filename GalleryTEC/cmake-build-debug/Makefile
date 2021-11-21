@@ -48,19 +48,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /snap/clion/169/bin/cmake/linux/bin/cmake
+CMAKE_COMMAND = /home/pablo/Desktop/clion-2021.2.1/bin/cmake/linux/bin/cmake
 
 # The command to remove a file.
-RM = /snap/clion/169/bin/cmake/linux/bin/cmake -E rm -f
+RM = /home/pablo/Desktop/clion-2021.2.1/bin/cmake/linux/bin/cmake -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/nasser/projects/GalleryTEC/GalleryTEC
+CMAKE_SOURCE_DIR = /home/pablo/CLionProjects/GalleryTEC/GalleryTEC
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/nasser/projects/GalleryTEC/GalleryTEC/cmake-build-debug
+CMAKE_BINARY_DIR = /home/pablo/CLionProjects/GalleryTEC/GalleryTEC/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -68,7 +68,7 @@ CMAKE_BINARY_DIR = /home/nasser/projects/GalleryTEC/GalleryTEC/cmake-build-debug
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/snap/clion/169/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+	/home/pablo/Desktop/clion-2021.2.1/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -78,7 +78,7 @@ edit_cache/fast: edit_cache
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/snap/clion/169/bin/cmake/linux/bin/cmake --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/home/pablo/Desktop/clion-2021.2.1/bin/cmake/linux/bin/cmake --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -87,9 +87,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/nasser/projects/GalleryTEC/GalleryTEC/cmake-build-debug/CMakeFiles /home/nasser/projects/GalleryTEC/GalleryTEC/cmake-build-debug//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/pablo/CLionProjects/GalleryTEC/GalleryTEC/cmake-build-debug/CMakeFiles /home/pablo/CLionProjects/GalleryTEC/GalleryTEC/cmake-build-debug//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/nasser/projects/GalleryTEC/GalleryTEC/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/pablo/CLionProjects/GalleryTEC/GalleryTEC/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -128,6 +128,30 @@ GalleryTEC: cmake_check_build_system
 GalleryTEC/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/GalleryTEC.dir/build.make CMakeFiles/GalleryTEC.dir/build
 .PHONY : GalleryTEC/fast
+
+Raids/Raid.o: Raids/Raid.cpp.o
+.PHONY : Raids/Raid.o
+
+# target to build an object file
+Raids/Raid.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GalleryTEC.dir/build.make CMakeFiles/GalleryTEC.dir/Raids/Raid.cpp.o
+.PHONY : Raids/Raid.cpp.o
+
+Raids/Raid.i: Raids/Raid.cpp.i
+.PHONY : Raids/Raid.i
+
+# target to preprocess a source file
+Raids/Raid.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GalleryTEC.dir/build.make CMakeFiles/GalleryTEC.dir/Raids/Raid.cpp.i
+.PHONY : Raids/Raid.cpp.i
+
+Raids/Raid.s: Raids/Raid.cpp.s
+.PHONY : Raids/Raid.s
+
+# target to generate assembly for a file
+Raids/Raid.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GalleryTEC.dir/build.make CMakeFiles/GalleryTEC.dir/Raids/Raid.cpp.s
+.PHONY : Raids/Raid.cpp.s
 
 converter.o: converter.cpp.o
 .PHONY : converter.o
@@ -210,6 +234,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... GalleryTEC"
+	@echo "... Raids/Raid.o"
+	@echo "... Raids/Raid.i"
+	@echo "... Raids/Raid.s"
 	@echo "... converter.o"
 	@echo "... converter.i"
 	@echo "... converter.s"

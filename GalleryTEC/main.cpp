@@ -1,10 +1,14 @@
 #include <opencv2/opencv.hpp>
 #include "hencoder.h"
 #include "converter.h"
+#include "Raids/Raid.h"
+
 using namespace std;
 using namespace cv;
 int main()
 {
+    Raid raid;
+    raid.cropimg();
     Size size(100,80);//the dst image size,e.g.100x100
     Mat m;//dst image
     Mat src=imread("ie.jpg");//src image
@@ -14,7 +18,7 @@ int main()
     hencoder h(vc);
     Mat dc = c.mat_rgb(h.decoded,m.rows,m.cols);
     imshow("decoded",dc);
-    waitKey(0);
+   waitKey(0);
 
     return 0;
 }

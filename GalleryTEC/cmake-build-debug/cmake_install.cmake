@@ -1,4 +1,4 @@
-# Install script for directory: /home/nasser/projects/GalleryTEC/GalleryTEC
+# Install script for directory: /home/pablo/CLionProjects/GalleryTEC/GalleryTEC
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -50,5 +50,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/nasser/projects/GalleryTEC/GalleryTEC/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/pablo/CLionProjects/GalleryTEC/GalleryTEC/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

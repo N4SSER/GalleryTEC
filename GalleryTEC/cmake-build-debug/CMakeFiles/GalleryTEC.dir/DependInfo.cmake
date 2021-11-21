@@ -8,15 +8,16 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/nasser/projects/GalleryTEC/GalleryTEC/converter.cpp" "/home/nasser/projects/GalleryTEC/GalleryTEC/cmake-build-debug/CMakeFiles/GalleryTEC.dir/converter.cpp.o"
-  "/home/nasser/projects/GalleryTEC/GalleryTEC/hencoder.cpp" "/home/nasser/projects/GalleryTEC/GalleryTEC/cmake-build-debug/CMakeFiles/GalleryTEC.dir/hencoder.cpp.o"
-  "/home/nasser/projects/GalleryTEC/GalleryTEC/main.cpp" "/home/nasser/projects/GalleryTEC/GalleryTEC/cmake-build-debug/CMakeFiles/GalleryTEC.dir/main.cpp.o"
+  "/home/pablo/CLionProjects/GalleryTEC/GalleryTEC/Raids/Raid.cpp" "/home/pablo/CLionProjects/GalleryTEC/GalleryTEC/cmake-build-debug/CMakeFiles/GalleryTEC.dir/Raids/Raid.cpp.o"
+  "/home/pablo/CLionProjects/GalleryTEC/GalleryTEC/converter.cpp" "/home/pablo/CLionProjects/GalleryTEC/GalleryTEC/cmake-build-debug/CMakeFiles/GalleryTEC.dir/converter.cpp.o"
+  "/home/pablo/CLionProjects/GalleryTEC/GalleryTEC/hencoder.cpp" "/home/pablo/CLionProjects/GalleryTEC/GalleryTEC/cmake-build-debug/CMakeFiles/GalleryTEC.dir/hencoder.cpp.o"
+  "/home/pablo/CLionProjects/GalleryTEC/GalleryTEC/main.cpp" "/home/pablo/CLionProjects/GalleryTEC/GalleryTEC/cmake-build-debug/CMakeFiles/GalleryTEC.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
-  "/usr/include/opencv4"
+  "/usr/local/include/opencv4"
   )
 
 # The set of dependency files which are needed:

@@ -1,4 +1,4 @@
-/snap/clion/169/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_DEPENDS_USE_COMPILER=FALSE -G "CodeBlocks - Unix Makefiles" /home/nasser/projects/GalleryTEC/GalleryTEC
+/home/pablo/Desktop/clion-2021.2.1/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_DEPENDS_USE_COMPILER=FALSE -G "CodeBlocks - Unix Makefiles" /home/pablo/CLionProjects/GalleryTEC/GalleryTEC
 -- Configuring done
 -- Generating done
--- Build files have been written to: /home/nasser/projects/GalleryTEC/GalleryTEC/cmake-build-debug
+-- Build files have been written to: /home/pablo/CLionProjects/GalleryTEC/GalleryTEC/cmake-build-debug
