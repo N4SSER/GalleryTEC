@@ -2,6 +2,7 @@
 // Created by n4ssser on 17/11/21.
 //
 
+#include <fstream>
 #include "hencoder.h"
 
 hencoder::Node *hencoder::getNode(int ch, int freq, hencoder::Node *left, hencoder::Node *right) {
@@ -18,12 +19,9 @@ hencoder::Node *hencoder::getNode(int ch, int freq, hencoder::Node *left, hencod
 void hencoder::encode(hencoder::Node *root, string str, unordered_map<int, string> &huffmanCode) {
     if (root == nullptr)
         return;
-
-    // found a leaf node
     if (!root->left && !root->right) {
         huffmanCode[root->ch] = str;
     }
-
     encode(root->left, str + "0", huffmanCode);
     encode(root->right, str + "1", huffmanCode);
 }
@@ -70,9 +68,38 @@ hencoder::hencoder(vector<int> data) {
     for (int ch: data) {
         encoded += huffmanCode[ch];
     }
+    ofstream out("h_tree.txt");
+    write_h_tree(root, out);
+    ofstream encode_data("bin.txt");
+    encode_data<<encoded;
     int index = -1;
     while (index < (int)encoded.size() - 2) {
         decode(root, index, encoded);
+    }
+
+}
+
+void hencoder::read_h_tree(hencoder::Node *&p, ifstream &fin) {
+    int data;
+    bool isNumber;
+//  if (ENDDATA)
+    //  return;
+    if (isNumber) {
+        p = new Node;
+        p->ch=data;
+        read_h_tree(p->left, fin);
+        read_h_tree(p->right, fin);
+    }
+
+}
+
+void hencoder::write_h_tree(Node *p, ostream &out) {
+    if (!p) {
+        out << "# ";
+    } else {
+        out << p->ch << " ";
+        write_h_tree(p->left, out);
+        write_h_tree(p->right, out);
     }
 
 }

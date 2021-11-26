@@ -129,6 +129,54 @@ GalleryTEC/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/GalleryTEC.dir/build.make CMakeFiles/GalleryTEC.dir/build
 .PHONY : GalleryTEC/fast
 
+RAID5.o: RAID5.cpp.o
+.PHONY : RAID5.o
+
+# target to build an object file
+RAID5.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GalleryTEC.dir/build.make CMakeFiles/GalleryTEC.dir/RAID5.cpp.o
+.PHONY : RAID5.cpp.o
+
+RAID5.i: RAID5.cpp.i
+.PHONY : RAID5.i
+
+# target to preprocess a source file
+RAID5.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GalleryTEC.dir/build.make CMakeFiles/GalleryTEC.dir/RAID5.cpp.i
+.PHONY : RAID5.cpp.i
+
+RAID5.s: RAID5.cpp.s
+.PHONY : RAID5.s
+
+# target to generate assembly for a file
+RAID5.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GalleryTEC.dir/build.make CMakeFiles/GalleryTEC.dir/RAID5.cpp.s
+.PHONY : RAID5.cpp.s
+
+converter.o: converter.cpp.o
+.PHONY : converter.o
+
+# target to build an object file
+converter.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GalleryTEC.dir/build.make CMakeFiles/GalleryTEC.dir/converter.cpp.o
+.PHONY : converter.cpp.o
+
+converter.i: converter.cpp.i
+.PHONY : converter.i
+
+# target to preprocess a source file
+converter.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GalleryTEC.dir/build.make CMakeFiles/GalleryTEC.dir/converter.cpp.i
+.PHONY : converter.cpp.i
+
+converter.s: converter.cpp.s
+.PHONY : converter.s
+
+# target to generate assembly for a file
+converter.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GalleryTEC.dir/build.make CMakeFiles/GalleryTEC.dir/converter.cpp.s
+.PHONY : converter.cpp.s
+
 hencoder.o: hencoder.cpp.o
 .PHONY : hencoder.o
 
@@ -186,6 +234,12 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... GalleryTEC"
+	@echo "... RAID5.o"
+	@echo "... RAID5.i"
+	@echo "... RAID5.s"
+	@echo "... converter.o"
+	@echo "... converter.i"
+	@echo "... converter.s"
 	@echo "... hencoder.o"
 	@echo "... hencoder.i"
 	@echo "... hencoder.s"
