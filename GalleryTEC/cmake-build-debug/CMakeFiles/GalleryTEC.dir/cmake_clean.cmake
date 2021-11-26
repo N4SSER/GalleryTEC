@@ -1,4 +1,5 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/GalleryTEC.dir/RAID5.cpp.o"
   "CMakeFiles/GalleryTEC.dir/converter.cpp.o"
   "CMakeFiles/GalleryTEC.dir/hencoder.cpp.o"
   "CMakeFiles/GalleryTEC.dir/main.cpp.o"

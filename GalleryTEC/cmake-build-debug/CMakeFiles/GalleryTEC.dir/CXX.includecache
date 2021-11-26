@@ -6,6 +6,10 @@
 
 #IncludeRegexTransform: 
 
+/home/nasser/projects/GalleryTEC/GalleryTEC/RAID5.h
+iostream
+-
+
 /home/nasser/projects/GalleryTEC/GalleryTEC/converter.h
 iostream
 -
@@ -15,12 +19,6 @@ opencv2/opencv.hpp
 -
 math.h
 -
-
-/home/nasser/projects/GalleryTEC/GalleryTEC/hencoder.cpp
-fstream
--
-hencoder.h
-/home/nasser/projects/GalleryTEC/GalleryTEC/hencoder.h
 
 /home/nasser/projects/GalleryTEC/GalleryTEC/hencoder.h
 iostream
@@ -39,6 +37,8 @@ hencoder.h
 /home/nasser/projects/GalleryTEC/GalleryTEC/hencoder.h
 converter.h
 /home/nasser/projects/GalleryTEC/GalleryTEC/converter.h
+RAID5.h
+/home/nasser/projects/GalleryTEC/GalleryTEC/RAID5.h
 
 /usr/include/opencv4/opencv2/calib3d.hpp
 opencv2/core.hpp
